@@ -10,6 +10,15 @@ namespace Exito
     {
         static void Main(string[] args)
         {
+            AlmacenesExito oAExito = new AlmacenesExito();
+            oAExito.PedirDatos();
+            oAExito.CalcularCostoAlmacenamiento();
+            oAExito.CalcularPorcentajeDepreciacion();
+            oAExito.CalcularCostoExhibicion();
+           oAExito.CalcularValorProducto();
+            oAExito.CalcularValorVenta();
+            oAExito.MostrarResultados();
+
         }
     }
 }
