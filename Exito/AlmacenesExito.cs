@@ -147,7 +147,7 @@ namespace Exito
             Console.WriteLine("costos de exhibicion                                                       :${0,14:N2}",costoExhibicion);
             Console.WriteLine("valor del producto                                                         :${0,14:N2}",valorProducto);
             Console.WriteLine("valor de venta                                                             :${0,14:N2}",valorVenta);
-            Console.ReadKey();
+            Console.ReadKey();///
         }
         }
         #endregion
